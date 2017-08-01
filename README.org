@@ -1,0 +1,17 @@
+#+TITLE: Homebrew-Jagot
+#+AUTHOR: Stefanos Carlström
+#+EMAIL: stefanos.carlstrom@gmail.com
+
+Collection of Homebrew formulas for my own convenience.
+
+* Usage
+  Following [[https://github.com/Homebrew/brew/blob/master/docs/How-to-Create-and-Maintain-a-Tap.md][How to Create and Maintain a Tap]], either issue
+  #+BEGIN_SRC sh
+    brew install jagot/jagot/ft232r_prog
+  #+END_SRC
+  to install only =ft232r_prog=, or
+  #+BEGIN_SRC sh
+    brew tap jagot/jagot
+  #+END_SRC
+  to access all formulas.
+
