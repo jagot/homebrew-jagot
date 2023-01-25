@@ -12,7 +12,7 @@ class Hp2xx < Formula
 
   depends_on "zlib"
   depends_on "libpng"
-  depends_on :x11
+  depends_on "libx11"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
